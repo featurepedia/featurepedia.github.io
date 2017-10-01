@@ -25,109 +25,19 @@ a feature encyclopedia of tech platforms
 > piece by piece in a way that is open and free*.
 > --[@neil](https://social.coop/@neil/1616282)
 
-
 > a "**BDD Enciclopaedia of Tech Platforms**"? Sounds cool, though it might be *a rather large undertaking*.
 > --[@fabianhjr](https://social.coop/@fabianhjr/1616916)
 
 ## the plan
 
-<ul>
-    <li>we list out feature specifications for tech platforms dominated by monopolies, silos and monocultures</li>
-    <li>we use these feature specifications to replace said platforms</li>
-    <li>we don't just rebuild monoliths, we follow the unix philosophy and glue together stable components</li>
-    <li>we recognise there's more than one way to skin a cat, so we focus on features and suggest various implementations of those features</li>
-    <li>we cater to the myriad needs that exist - no one feature set fits all sizes</li>
-    <li>you choose a selection of features, and get recommendations on what components, glued together, can fulfil your selection</li>
-    <li>people share recipes of features</li>
-    <li>the focus is on reuse, longevity, standards and decentralization</li>
-    <li>we recognise that UX is as important as functionality, and endeavour to ensure the alternatives are open to everyone</li>
-    <li>we recognise that sometimes an ide is better than a text editor, so welcome open source options that combine multiple pieces of a together</li>
-</ul>
+- we list out feature specifications for tech platforms dominated by monopolies, silos and monocultures
+- we use these feature specifications to replace said platforms
+- we don't just rebuild monoliths, we follow the unix philosophy and glue together stable components
+- we recognise there's more than one way to skin a cat, so we focus on features and suggest various implementations of those features
+- we cater to the myriad needs that exist - no one feature set fits all sizes
+- you choose a selection of features, and get recommendations on what components, glued together, can fulfil your selection
+- people share recipes of features
+- the focus is on reuse, longevity, standards and decentralization
+- we recognise that UX is as important as functionality, and endeavour to ensure the alternatives are open to everyone
+- we recognise that sometimes an ide is better than a text editor, so welcome open source options that combine multiple pieces of a together
 
-<h2>examples</h2>
-
-<h3>todo tracking</h3>
-
-<h4>Capability: Access across multiple devices</h4>
-
-<pre>
-Capability: Access across multiple devices
-
-As a todo tracker,
-In order to record things todo whenever they occur to me,
-I want to be able to view my todos on multiple devices
-</pre>
-
-<p>
-    Solution: use a file format that is supported by apps on multiple
-devices.
-</p>
-
-<pre>
-Feature: Todos can be edited on desktop
-</pre>
-
-<pre>
-Feature: Todos can be edited on Android
-</pre>
-
-<hr/>
-
-<h4>Capability: Easy sync across multiple devices</h4>
-<pre>
-Capability: Synchronisation across multiple devices
-
-As a todo tracker,
-In order to always have access to my latest list of things to do,
-I want to have access to my todos on multiple devices
-</pre>
-
-<pre>
-Feature: Automatic sync across multiple devices
-
-As a todo tracker,
-In order to always have access to my latest list of things to do,
-I want to have my todos automatically sync between devices
-</pre>
-
-<p>
-
-</p>
-
-<table>
-    <thead>
-        <tr>
-            <th>Feature</th>
-            <th>indieware</th>
-            <th>todoist</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Todos can be edited on desktop</td>
-            <td>emacs</td>
-            <td>todoist</td>
-        </tr>
-        <tr>
-            <td>Todos can be edited on Android</td>
-            <td>orgzly</td>
-            <td>todoist</td>
-        </tr>
-        <tr>
-            <td>Todos can be edited on iPhone</td>
-            <td>? - text editor</td>
-            <td>todoist</td>
-        </tr>
-        <tr>
-            <td>Automatic sync</td>
-            <td>syncthing</td>
-            <td>todoist</td>
-        </tr>
-    </tbody>
-</table>
-
-<h2>Some handy references</h2>
-
-<ul>
-    <li><a href="https://www.researchgate.net/publication/220789544_From_software_product_lines_to_software_ecosystem">From Software Product Lines to Software Ecosystems</a>. Jan Bosch, 2009.</li>
-</ul>
