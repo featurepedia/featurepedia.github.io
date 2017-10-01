@@ -13,6 +13,8 @@
 
         <p>a feature encyclopedia of tech platforms</p>
 
+        <a href="/">about</a> | <a href="/examples">examples</a> | <a href="/resources">resources</a>
+
         @yield('body')
     </body>
 </html>
