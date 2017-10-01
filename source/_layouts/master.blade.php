@@ -9,6 +9,10 @@
         <title>featurepedia</title>
     </head>
     <body>
+        <h1>featurepedia</h1>
+
+        <p>a feature encyclopedia of tech platforms</p>
+
         @yield('body')
     </body>
 </html>

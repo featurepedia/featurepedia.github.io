@@ -3,10 +3,6 @@ extends: _layouts.master
 section: body
 ---
 
-# featurepedia
-
-a feature encyclopedia of tech platforms
-
 ## about
 
 > Been thinking more and more lately about 'indieware' - <strong>replacement
